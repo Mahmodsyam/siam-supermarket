@@ -461,18 +461,18 @@ ul{list-style:none}
 @keyframes navRipple{from{transform:scale(0);opacity:1}to{transform:scale(2.5);opacity:0}}
 
 @media(max-width:640px){
-  .bottom-nav{bottom:14px;max-width:calc(100vw - 20px)}
-  .bottom-nav-inner{padding:5px 6px;gap:1px}
-  .nav-item{padding:6px 10px;min-width:44px}
-  .nav-item .nav-icon{width:20px;height:20px}
-  .nav-item .nav-icon svg{width:20px;height:20px}
-  .nav-item .nav-label{font-size:8px}
+  .bottom-nav{bottom:16px;max-width:calc(100vw - 24px)}
+  .bottom-nav-inner{padding:8px 10px;gap:2px}
+  .nav-item{padding:8px 12px;min-width:52px;border-radius:14px}
+  .nav-item .nav-icon{width:22px;height:22px}
+  .nav-item .nav-icon svg{width:22px;height:22px}
+  .nav-item .nav-label{font-size:10px}
 }
 @media(max-width:420px){
-  .bottom-nav{bottom:10px;max-width:calc(100vw - 12px)}
-  .bottom-nav-inner{padding:4px 4px}
-  .nav-item{padding:5px 7px;min-width:36px;border-radius:10px}
-  .nav-item .nav-icon{width:18px;height:18px}
-  .nav-item .nav-icon svg{width:18px;height:18px}
-  .nav-item .nav-label{font-size:7px}
+  .bottom-nav{bottom:12px;max-width:calc(100vw - 16px)}
+  .bottom-nav-inner{padding:6px 8px;gap:2px}
+  .nav-item{padding:6px 10px;min-width:48px;border-radius:12px}
+  .nav-item .nav-icon{width:20px;height:20px}
+  .nav-item .nav-icon svg{width:20px;height:20px}
+  .nav-item .nav-label{font-size:9px}
 }
